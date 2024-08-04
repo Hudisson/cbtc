@@ -23,7 +23,7 @@ public class HistoricoBTCBRLModels extends RepresentationModel<HistoricoBTCBRLMo
     private UUID hBtcBrlId;                 // Identificador único
 
     private String nameCoin;                // Nome da moeda
-    private BigDecimal currentPrice;        // Peço atual
+    private BigDecimal currentPrice;        // Peço ou cotação atual em BRL
     private String dateTime;                // Data e hora ()
 
     public static long getSerialversionuid() {
